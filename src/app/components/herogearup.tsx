@@ -6,12 +6,12 @@ import { IoIosArrowBack } from "react-icons/io";
 const Herogearup = () => {
   return (
     <>
-      <div className="py-16 px-4 sm:px-6 md:px-8 lg:px-12">
+      <div className="py-12 px-4 sm:px-6 md:px-8 lg:px-12">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-[#111111] text-xl sm:text-2xl font-bold mb-12 text-left">
             Gear Up
           </h2>
-          <div className="flex flex-col md:flex-row justify-between items-center mb-8 space-y-4 md:space-y-0">
+          <div className="flex flex-col pt-0 md:flex-row justify-between items-center mb-8 space-y-4 md:space-y-0">
             <div className="flex flex-col items-start md:flex-row md:items-center md:space-x-4">
               <h2 className="text-[#111111] text-base md:text-xl font-bold">
                 Shop Men

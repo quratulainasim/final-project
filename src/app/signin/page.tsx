@@ -59,19 +59,17 @@ function Signin() {
             </Link>
             .
           </p>
-          <div className="w-96 h-52 pt-1">
-            <div className="border rounded-md bg-black text-white text-[11px] font-normal p-4 text-center">
+          <div className="w-96 h-52 pt-1 flex flex-col items-center">
+            <div className="w-96 border rounded-lg bg-black text-white text-[11px] font-normal p-4 text-center">
               SIGN IN
             </div>
-          </div>
-         
-            <span className="text-[#8D8D8D] font-normal text-center text-xs">
+            <span className="text-[#8D8D8D] font-normal pt-1 text-center text-xs">
               Not a member?
               <Link href={"../joinus"}>
                 <span className="text-[#8D8D8D] font-normal text-xs underline pl-1"> Join Us.</span>
               </Link>
             </span>
-          
+          </div>
         </form>
       </div>
       <Footer />

@@ -21,7 +21,7 @@ const Herodontmiss = () => {
         </div>
         </div>
        
-        <div className="relative py-16 px-8">
+        <div className="relative py-9 px-8">
         <div className="max-w-7xl mx-auto text-center">
         
           <h1 className="text-[52px]  leading-[60px] text-center text-[#111111] font-bold">

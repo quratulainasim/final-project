@@ -11,14 +11,14 @@ function New() {
       <Header />
 
       <div className="w-[1440px] h-[51px] pt-4">
-        <div className="w-[1344px] h-[36px] mx-12 flex pr-10">
+        <div className="w-[1344px] h-[36px] mx-12 sm:flex flex-col md:flex-row  md:space-y-1 pr-10">
           <div className="w-[1119px] h-[33px]">
             <h1 className="h-[32px] text-2xl text-[#111111] font-medium text-left">
               New (500)
             </h1>
           </div>
           <div className="w-[224px] h-[28px] pt-2 flex-col md:flex-row flex justify-between gap-1">
-            <div className="w-[137px] h-[28px] flex-col md:flex-row flex justify-between items-center pr-1 ">
+            <div className="w-[137px] h-[28px] flex-col md:flex-row md:space-y-2 flex justify-between items-center pr-1 ">
               <p className="font-normal text-base text-[#111111]">
                 Hide Filters
               </p>
@@ -122,8 +122,8 @@ function New() {
           </div>
         </div>
 
-        <div className="w-full sm:px-6 md:px-8 lg:px-12">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="w-full sm:px-6 md:px-8 lg:px-12 sm:items-center md:items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-6">
             <div className="border  border-white rounded-md p-3">
               <Image
                 src="/p1.jpg"

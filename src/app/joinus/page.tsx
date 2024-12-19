@@ -110,20 +110,20 @@ function JoinUs() {
             </Link>
             .
           </p>
-          <div className="w-96 h-52 pt-1">
-            <div className="border rounded-md bg-black text-white text-[15px] font-normal p-4 text-center">
+          <div className="w-96 h-52 pt-1 flex flex-col items-center">
+            <div className="w-96 border rounded-lg bg-black text-white text-[15px] font-normal p-4 text-center">
               JOIN US
             </div>
-          </div>
-          <span className="text-[#8D8D8D] font-normal text-[11px] text-center">
+            <span className="text-[#8D8D8D] font-normal text-[11px] pt-1 text-center">
             Already a member?
             <Link href={"../signin"}>
               <span className="text-[#8D8D8D] font-medium text-[11px] underline pl-1">
-                {" "}
+              
                 Sign In.
               </span>
             </Link>
           </span>
+          </div>
         </form>
       </div>
       <Footer />
