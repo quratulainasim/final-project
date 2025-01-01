@@ -9,7 +9,7 @@ function JoinUs() {
       <Header />
       <div className="flex flex-col items-center py-10">
         <Image
-          className="pb-5"
+          className="pb-5 height={auto} width={100%}"
           src="/h3.png"
           width={40}
           height={10}
@@ -22,7 +22,7 @@ function JoinUs() {
           Create your Nike Member profile and get first access to the very best
           of Nike products inspiration and community.
         </p>
-        <form action="" className="flex flex-col w-96">
+        <form action="" className="w-96 flex flex-col justify-center items-center sm:px-10 py-10">
           <input
             className="w-96 border-[#E5E5E5] rounded-md mb-4 px-4 py-3 border-[2px] placeholder:text-[#8D8D8D] text-sm font-normal"
             type="text"
@@ -72,11 +72,11 @@ function JoinUs() {
               Canada
             </option>
           </select>
-          <div className="flex gap-5 mt-1">
-            <div className="border-[#E5E5E5] rounded-md py-4 border-[2px] w-2/4 text-center text-[#8D8D8D] text-[13px] font-normal">
+          <div className="flex gap-2 mt-1">
+            <div className="w-48 border-[#E5E5E5] rounded-md  border-[2px] py-3 px-1 text-center text-[#8D8D8D] text-[13px] font-normal">
               Male
             </div>
-            <div className="border-[#E5E5E5] rounded-md py-4 border-[2px] w-2/4 text-center text-[#8D8D8D] text-[13px] font-normal">
+            <div className="w-48 border-[#E5E5E5] rounded-md py-3 px-1 border-[2px]  text-center text-[#8D8D8D] text-[13px] font-normal">
               Female
             </div>
           </div>

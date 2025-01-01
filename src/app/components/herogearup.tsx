@@ -6,38 +6,29 @@ import { IoIosArrowBack } from "react-icons/io";
 const Herogearup = () => {
   return (
     <>
-      <div className="py-12 px-4 sm:px-6 md:px-8 lg:px-12">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-[#111111] text-xl sm:text-2xl font-bold mb-12 text-left">
-            Gear Up
-          </h2>
-          <div className="flex flex-col pt-0 md:flex-row justify-between items-center mb-8 space-y-4 md:space-y-0">
-            <div className="flex flex-col items-start md:flex-row md:items-center md:space-x-4">
-              <h2 className="text-[#111111] text-base md:text-xl font-bold">
-                Shop Men
-              </h2>
-              <button className="flex items-center justify-center p-3 bg-[#F5F5F5] rounded-full ml-0 md:ml-2">
-                <IoIosArrowBack />
+ 
+ <section className="px-4 md:px-8 lg:px-16 py-8">
+      <h2 className="text-[#111111] text-xl sm:text-2xl text-center sm:text-left font-bold mb-8">
+        Gear Up
+      </h2>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-1">
+
+        <div>
+          <div className="flex justify -center sm:justify-end gap-4 mb-6">
+            <h3 className="text-[#111111] text-md md:text-lg font-medium ml-3">Shop Men&apos;s</h3>
+            <div className="flex space-x-2 mr-2">
+              <button className="p-3 bg-gray-200 rounded-full hover:bg-gray-300">
+              <IoIosArrowBack />
               </button>
-              <button className="flex items-center justify-center p-3 bg-[#E5E5E5] rounded-full ml-2">
-                <IoIosArrowForward />
-              </button>
-            </div>
-            <div className="flex flex-col items-start md:flex-row md:items-center md:space-x-4">
-              <h2 className="text-[#111111] text-base md:text-xl font-bold">
-                Shop Women
-              </h2>
-              <button className="flex items-center justify-center p-3 bg-[#F5F5F5] rounded-full ml-0 md:ml-2">
-                <IoIosArrowBack />
-              </button>
-              <button className="flex items-center justify-center p-3 bg-[#E5E5E5] rounded-full ml-2">
-                <IoIosArrowForward />
+              <button className="p-3 bg-gray-200 rounded-full hover:bg-gray-300">
+              <IoIosArrowForward />
               </button>
             </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-col-2 md:grid-cols-3 lg:grid-cols-4">
-            <div className="flex flex-col p-1 text-center items-center transition-transform duration-300 ease-in-out transform hover:scale-110 ">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-1">
+            
+            <div className="p-4  transition-transform duration-300 ease-in-out transform hover:scale-110">
               <Image
                 src="/cart.jpg"
                 alt="image"
@@ -45,20 +36,21 @@ const Herogearup = () => {
                 height={400}
                 className="rounded-lg"
               />
-              <div className="flex justify-between w-[284px]">
+                <div className="flex justify-between w-[284px]">
                 <div className="flex flex-col w-[231px] ">
-                  <p className="font-medium  text-[#111111] text-left  text-sm mt-2">
-                    Nike Dri-FIT ADV TechKnit Ultra
-                  </p>
-                  <p className="text-[#757575] text-base text-left font-normal">
-                    Men&apos;s Short-Sleeve Running Top
-                  </p>
-                </div>
-                <p className="text-sm text-[#111111] mt-2">₹ 3,895</p>
+
+              <h4 className="text-[#111111] mt-4 text-sm md:text-base font-medium">
+                Nike Dri-FIT ADV TechKnit Ultra
+              </h4>
+              <p className="text-base text-left font-normal text-[#757575]">
+                Men&apos;s Short-Sleeve Running Top
+              </p>
               </div>
+              <p className="text-[#111111] mt-4 text-sm font-semibold">₹ 3 895</p>
+            </div>
             </div>
 
-            <div className="flex flex-col p-1 text-center items-center transition-transform duration-300 ease-in-out transform hover:scale-110">
+            <div className="p-4 transition-transform duration-300 ease-in-out transform hover:scale-110 ">
               <Image
                 src="/nike2.jpg"
                 alt="image"
@@ -66,20 +58,37 @@ const Herogearup = () => {
                 height={400}
                 className="rounded-lg"
               />
-              <div className="flex justify-between w-[284px]">
-                <div className="flex flex-col w-[231px] ">
-                  <p className="font-medium text-[#111111] text-left  text-sm mt-2 ">
-                    Nike Dri-FIT Challenger
-                  </p>
-                  <p className="text-[#757575] text-base text-left font-normal">
-                    Men&apos;s 18cm (approx.) 2-in-1 Versatile Shorts
-                  </p>
-                </div>
-                <p className="text-[#757575] text-sm mt-2">₹ 2,495</p>
-              </div>
-            </div>
+               <div className="flex justify-between w-[284px]">
+               <div className="flex flex-col w-[231px] ">  
 
-            <div className="flex flex-col p-1 text-center items-center transition-transform duration-300 ease-in-out transform hover:scale-110">
+              <h4 className=" text-[#111111] mt-4 text-sm md:text-base font-medium">
+                Nike Dri-FIT Challenger
+              </h4>
+              <p className="text-base text-left font-normal text-[#757575]">
+                Men&apos;s 18cm (approx.) 2-in-1 Versatile Shorts
+              </p>
+              </div>
+              <p className=" mtext-[#111111] mt-4 text-sm font-semibold">₹ 2 495</p>
+            </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div className="flex justify -center sm:justify-end gap-4  mb-6">
+            <h3 className=" text-[#111111] text-md md:text-lg font-medium ml-3">Shop Women&apos;s</h3>
+            <div className="flex space-x-2 mr-2">
+              <button className="p-3 bg-gray-200 rounded-full hover:bg-gray-300">
+              <IoIosArrowBack />
+              </button>
+              <button className="p-3 bg-gray-200 rounded-full hover:bg-gray-300">
+              <IoIosArrowForward />
+              </button>
+            </div>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-1">
+            
+            <div className="p-4 transition-transform duration-300 ease-in-out transform hover:scale-110">
               <Image
                 src="/girl.jpg"
                 alt="image"
@@ -88,19 +97,20 @@ const Herogearup = () => {
                 className="rounded-lg"
               />
               <div className="flex justify-between w-[284px]">
-                <div className="flex flex-col w-[231px] ">
-                  <p className="text-[#111111] font-medium  text-left  text-sm mt-2">
-                    Nike Dri-FIT ADV Run Division
-                  </p>
-                  <p className="text-[#757575] text-base text-left font-normal">
-                    Women&apos;s Long-Sleeve Running Top
-                  </p>
-                </div>
-                <p className="text-sm text-[#757575] mt-2">₹ 5,295</p>
+              <div className="flex flex-col w-[231px] ">
+
+              <h4 className="text-[#111111] mt-4 text-sm md:text-base font-medium">
+                Nike Dri-FIT ADV Run Division
+              </h4>
+              <p className="text-base text-left font-normal text-[#757575]">
+                Women&apos;s Long-Sleeve Running Top
+              </p>
               </div>
+              <p className="text-[#111111] mt-4 text-sm font-semibold">₹ 5 295</p>
+            </div>
             </div>
 
-            <div className="flex flex-col p-1 text-center items-center transition-transform duration-300 ease-in-out transform hover:scale-110 ">
+            <div className="flex flex-col p-4 transition-transform duration-300 ease-in-out transform hover:scale-110 ">
               <Image
                 src="/nike3.jpg"
                 alt="image"
@@ -109,20 +119,21 @@ const Herogearup = () => {
                 className="rounded-lg"
               />
               <div className="flex justify-between w-[284px]">
-                <div className="flex flex-col w-[231px] ">
-                  <p className="font-medium text-[#111111] text-left  text-sm mt-2">
-                    Nike Fast
-                  </p>
-                  <p className="text-[#757575] text-base text-left font-normal">
-                    Women&apos;s Mid-Rise 7/8 Running Leggings with Pockets
-                  </p>
-                </div>
-                <p className="text-sm text-[#757575] mt-2 ">₹ 3,795</p>
+              <div className="flex flex-col w-[231px] ">
+              <h4 className=" text-[#111111] mt-4 text-sm md:text-base font-medium">
+                Nike Fast
+              </h4>
+              <p className="text-base text-left font-normal text-[#757575]">
+                Women&apos;s Mid-Rise 7/8 Running Leggings with Pockets
+              </p>
               </div>
+              <p className=" text-[#111111] mt-4 text-sm font-semibold">₹3 795</p>
+            </div>
             </div>
           </div>
         </div>
       </div>
+    </section>
     </>
   );
 };

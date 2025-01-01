@@ -19,7 +19,7 @@ function Signin() {
         <h2 className=" w-40 text-center text-[#111111] text-lg font-bold pb-5">
           YOUR ACCOUNT FOR EVERYTHING NIKE
         </h2>
-        <form action="" className="flex flex-col w-96">
+        <form action="" className="flex flex-col w-96 sm:px-10 py-10">
           <input
             className="w-96 border-[#E5E5E5] rounded-md mb-4 px-4 py-3 border-[2px] placeholder:text-[#8D8D8D] text-sm font-normal"
             type="text"
